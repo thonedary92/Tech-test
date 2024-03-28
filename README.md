@@ -1,6 +1,10 @@
 In this project,
 
-my project structure
+````
+
+# Native Project Structure ( Redux )
+
+``` native
 .
 ├── components
 ├── general
@@ -9,6 +13,8 @@ my project structure
 │ └── right
 ├── store
 └── style
+
+````
 
 in responsive,
 I show message box with full width if one of chats is selected and
