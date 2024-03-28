@@ -1,35 +1,14 @@
 In this project,
 
 my project structure
-
-├── app
-│
-│
-│
+.
 ├── components
-│ ├── navbar
-│ │  
-│ ├── table
-│ │  
-│ ├── chatBox
 ├── general
-│ ├── constant
-│ │  
-│ │  
-│ │  
-│ └── theme
 ├── page
-│ ├── leftside
-│ ├──
-│ └── rightside
-│
+│ ├──left
+│ └── right
 ├── store
-│ ├── features
-│ │
-│ │
-│ │
-│ └── route.jsx
-├── style
+└── style
 
 in responsive,
 I show message box with full width if one of chats is selected and
