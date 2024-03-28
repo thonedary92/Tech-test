@@ -2,28 +2,34 @@ In this project,
 
 my project structure
 
-components
-|
-|\_ nav bar
-|
-|\_msg box
-|
-|\_table
-general
-|
-|\_constant data
-|\_theme
-page
-|
-|\_left side
-|
-|\_right side
-store
-|
-|\_features
-|\_userSlice
-|\_chat
-style
+├── app
+│
+│
+│
+├── components
+│ ├── navbar
+│ │  
+│ ├── table
+│ │  
+│ ├── chatBox
+├── general
+│ ├── constant
+│ │  
+│ │  
+│ │  
+│ └── theme
+├── page
+│ ├── leftside
+│ ├──
+│ └── rightside
+│
+├── store
+│ ├── features
+│ │
+│ │
+│ │
+│ └── route.jsx
+├── style
 
 in responsive,
 I show message box with full width if one of chats is selected and
