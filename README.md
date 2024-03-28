@@ -1,3 +1,36 @@
+In this project,
+
+my project structure
+
+components
+|
+|\_ nav bar
+|
+|\_msg box
+|
+|\_table
+general
+|
+|\_constant data
+|\_theme
+page
+|
+|\_left side
+|
+|\_right side
+store
+|
+|\_features
+|\_userSlice
+|\_chat
+style
+
+in responsive,
+I show message box with full width if one of chats is selected and
+if you want to go back to list page, please close chat box with close icon at chatbox
+
+my difficulty would be time management.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
