@@ -86,13 +86,20 @@ function CommonTable({ dataArr }) {
                 </div>
               </TableCell>
               <TableCell align="right">
-                <p
+                <div
                   className={`${
                     Status[user?.leadStatus]
-                  } bg-green-500 text-xs rounded-full text-white p-2`}
+                  } bg-green-500 rounded-full`}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
                 >
-                  {user?.leadStatus}
-                </p>
+                  <p className={`text-xs  text-white p-2`}>
+                    {user?.leadStatus}
+                  </p>
+                </div>
               </TableCell>
               <TableCell align="right" className={`text-black`}>
                 {user?.contact?.campaign}
