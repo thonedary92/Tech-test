@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+  /* Adjust breakpoint if needed */
+  .withRightChatID {
+    width: 100% !important; /* Full width on small screens */
+  }
+  .woRightChatID {
+    display: none;
+  }
+  .reply-row {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .reply-row {
+    flex-direction: column !important;
+  }
+  .btn-group {
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+}
+
+.withRightChatID {
+  width: 50%;
+  padding: 3px;
+  background-color: #fff;
+}
+
+.woRightChatID {
+  width: 50%; /* Default width (adjust as needed) */
+  padding: 1rem; /* Adjust padding as needed */
+  background-color: white;
+  position: relative; /* Assuming "over" refers to relative positioning */
+}

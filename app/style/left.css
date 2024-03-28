@@ -1,0 +1,26 @@
+@media (max-width: 900px) {
+  /* Adjust breakpoint if needed */
+  .withChatID {
+    display: none;
+    width: 100% !important; /* Full width on small screens */
+  }
+  .woChatID {
+    display: block;
+    width: 100% !important;
+  }
+}
+
+.withChatID {
+  width: 50%;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.woChatID {
+  width: 50%; /* Default width (adjust as needed) */
+  padding: 1rem; /* Adjust padding as needed */
+  background-color: white;
+  position: relative; /* Assuming "over" refers to relative positioning */
+  padding: 5px;
+  height: 100%;
+}
